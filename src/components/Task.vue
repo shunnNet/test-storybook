@@ -18,6 +18,8 @@
         :id="'title-' + task.id"
         name="title"
         placeholder="Input title"
+        style="background-color: red"
+      />
       />
     </label>
     <button
@@ -31,7 +33,6 @@
     </button>
   </div>
 </template>
-
 <script>
 import { reactive, computed } from 'vue'
 
